@@ -24,7 +24,7 @@ class Queue:
       temp = self.head
       self.head = temp.next
       temp.next = None
-     else:
+    else:
       self.head = None
       self.last = None
 
@@ -37,8 +37,8 @@ class Queue:
         temp = temp.next
        else:
         print(temp.data,"None", sep="=>")
-     else:
-      print("None")
+      else:
+        print("None")
      
 
 
