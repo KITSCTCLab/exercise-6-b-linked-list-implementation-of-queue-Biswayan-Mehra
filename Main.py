@@ -12,7 +12,7 @@ class Queue:
   def enqueue(self, data) -> None:
     # Write your code here
     temp = Node(data)
-    if(self.head == self.last):
+    if(self.head == None):
       self.head = temp
       self.last = temp
     else:
