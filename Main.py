@@ -21,8 +21,7 @@ class Queue:
     # Write your code here
     if(self.head != None):
       if(self.head != self.last):
-        temp = self.head
-        self.head = temp.next
+        self.head = self.head.next
       elif(self.head == self.last):
         self.head = self.last = None
 
@@ -33,7 +32,7 @@ class Queue:
       while(temp.next != None):
         print(temp.data, end= "=>")
         temp = temp.next
-      else:
+      if(temp.next == None):
         print(temp.data,"None", sep="=>")
     else:
         print("None")
