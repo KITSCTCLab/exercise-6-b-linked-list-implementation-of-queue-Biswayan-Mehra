@@ -37,7 +37,7 @@ class Queue:
         temp = temp.next
       else:
         print(temp.data,"None", sep="=>")
-     else:
+    else:
         print("None")
      
 
