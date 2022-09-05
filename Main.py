@@ -19,12 +19,11 @@ class Queue:
 
   def dequeue(self) -> None:
     # Write your code here
-    if(self.head != None):
-      if(self.head != self.last):
-        temp = self.head
-        self.head = temp.next
-      else:
-        self.head = self.last = None
+     if(self.head != None):
+       temp = self.head
+       self.head = temp.next
+     if(self.head == None):
+       self.last = None
 
   def status(self) -> None:
     # Write your code here
