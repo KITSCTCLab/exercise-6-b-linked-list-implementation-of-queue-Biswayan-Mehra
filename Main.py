@@ -19,7 +19,7 @@ class Queue:
 
   def dequeue(self) -> None:
     # Write your code here
-    while(self.head != self.last):
+    if(self.head != self.last):
       temp = self.head
       self.head = temp.next
     else:
