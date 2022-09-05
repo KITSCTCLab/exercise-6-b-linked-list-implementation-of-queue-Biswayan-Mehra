@@ -35,9 +35,9 @@ class Queue:
       while(temp.next != None):
         print(temp.data, end= "=>")
         temp = temp.next
-       else:
-        print(temp.data,"None", sep="=>")
       else:
+        print(temp.data,"None", sep="=>")
+     else:
         print("None")
      
 
