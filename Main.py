@@ -31,7 +31,7 @@ class Queue:
   def status(self) -> None:
     # Write your code here
     temp = self.head
-    if(self.head != None)
+    if(self.head != None):
       while(temp.next != None):
         print(temp.data, end= "=>")
         temp = temp.next
