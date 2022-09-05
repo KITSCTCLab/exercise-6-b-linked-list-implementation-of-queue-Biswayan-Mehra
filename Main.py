@@ -22,7 +22,6 @@ class Queue:
     while(self.head != self.last):
       temp = self.head
       self.head = temp.next
-      temp.next = None
     else:
       self.head = self.last = None
 
