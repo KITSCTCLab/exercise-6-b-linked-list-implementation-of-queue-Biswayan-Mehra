@@ -23,7 +23,7 @@ class Queue:
       if(self.head != self.last):
         temp = self.head
         self.head = temp.next
-      else if(self.head == self.last):
+      elif(self.head == self.last):
         self.head = self.last = None
 
   def status(self) -> None:
